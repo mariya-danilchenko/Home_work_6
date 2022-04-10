@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Jost;
+}
+
+.first-title {
+    font-weight: 900;
+    width: 100%;
+    text-decoration: underline double;
+    text-align: center;
+}
+
+.charlotte {
+    height: 1000px;
+    width: 1100px;
+    position: relative;
+    top: 50px;
+    left: 50vh;
+    padding: 90px;
+    margin: 100px 50px;
+    border-top: solid;
+    border-right: solid;
+    border-bottom: dotted;
+    border-left: dotted;
+    background-color: rgba(45, 174, 216, 0.235);
+    border-color: rgba(15, 50, 62, 0.406);
+    border-width: 3px;
+}
+
+.title-charlotte {
+    text-decoration: underline;
+    color: rgba(3, 41, 53, 0.755);
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+
+h2+p::first-letter {
+    font-size: 24px;
+    font-weight: 900;
+    color: rgba(3, 41, 53, 0.755);
+}
+
+.third-title-charlotte {
+    font-weight: 800;
+    color: rgba(3, 41, 53, 0.755);
+    margin: 20px 0px;
+}
+
+.composition-charlotte {
+    padding-left: 50px;
+}
+
+.composition-charlotte li:nth-child(even) {
+    color: rgba(3, 41, 53, 0.755);
+    text-decoration: underline dotted rgba(3, 41, 53, 0.755);
+}
+
+.cooking-charlotte {
+    padding-left: 50px;
+}
+
+.cooking-charlotte li:nth-child(even) {
+    color: rgba(3, 41, 53, 0.755);
+    text-decoration: underline dotted rgba(3, 41, 53, 0.755);
+}
+
+.image-charlotte {
+    position: absolute;
+    bottom: 90%;
+    left: 90%;
+    border: 5px solid rgba(15, 50, 62, 0.406);
+    width: 300px;
+    height: 200px;
+}
+
+.img-piece-charlotte {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    object-position: left top;
+}
+
+.about-charlotte {
+    text-decoration: overline;
+    padding-top: 60px;
+}
+
+.tiramisu {
+    height: 950px;
+    width: 1100px;
+    position: relative;
+    top: 50px;
+    left: 50vh;
+    padding: 90px;
+    margin: 100px 50px;
+    border-top: solid;
+    border-right: solid;
+    border-bottom: dotted;
+    border-left: dotted;
+    background-color: rgba(169, 169, 169, 0.18);
+    border-color: rgba(58, 58, 58, 0.762);
+    border-width: 3px;
+}
+
+.title-tiramisu {
+    text-decoration: underline;
+    color: rgba(58, 58, 58, 0.762);
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+
+h2+p::first-letter {
+    font-size: 24px;
+    font-weight: 900;
+    color: rgba(58, 58, 58, 0.762);
+}
+
+.third-title-tiramisu {
+    font-weight: 800;
+    color: rgba(58, 58, 58, 0.762);
+    margin: 20px 0px;
+}
+
+.composition-tiramisu {
+    padding-left: 50px;
+}
+
+.composition-tiramisu li:nth-child(odd) {
+    color: rgba(58, 58, 58, 0.762);
+    text-decoration: underline dotted rgba(3, 41, 53, 0.755);
+}
+
+.cooking-tiramisu {
+    padding-left: 50px;
+}
+
+.cooking-tiramisu li:nth-child(odd) {
+    color: rgba(58, 58, 58, 0.762);
+    text-decoration: underline dotted rgba(3, 41, 53, 0.755);
+}
+
+.image-tiramisu {
+    position: absolute;
+    bottom: 90%;
+    left: 90%;
+    border: 5px solid rgba(58, 58, 58, 0.762);
+    width: 300px;
+    height: 200px;
+}
+
+.img-piece-tiramisu {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    object-position: left top;
+}
+
+.about-tiramisu {
+    text-decoration: overline;
+    padding-top: 70px;
+    text-align: center;
+}
+
+.cookies {
+    height: 950px;
+    width: 1100px;
+    position: relative;
+    top: 50px;
+    left: 50vh;
+    padding: 90px;
+    margin: 100px 50px;
+    border-top: solid;
+    border-right: solid;
+    border-bottom: dotted;
+    border-left: dotted;
+    background-color: rgba(143, 188, 143, 0.618);
+    border-color: rgba(34, 74, 34, 0.831);
+    border-width: 3px;
+}
+
+.title-cookies {
+    text-decoration: underline;
+    color: rgba(34, 74, 34, 0.831);
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+
+h2+p::first-letter {
+    font-size: 24px;
+    font-weight: 900;
+    color: rgba(34, 74, 34, 0.831);
+}
+
+.third-title-cookies {
+    font-weight: 800;
+    color: rgba(34, 74, 34, 0.831);
+    margin: 20px 0px;
+}
+
+.composition-cookies {
+    padding-left: 50px;
+}
+
+.composition-cookies li:nth-child(3n+3) {
+    color: rgba(34, 74, 34, 0.831);
+    text-decoration: underline wavy rgba(34, 74, 34, 0.831);
+}
+
+.cooking-cookies {
+    padding-left: 50px;
+}
+
+.cooking-cookies li:nth-child(3) {
+    color: rgba(34, 74, 34, 0.831);
+    text-decoration: underline wavy rgba(34, 74, 34, 0.831);
+}
+
+.image-cookies {
+    position: absolute;
+    bottom: 90%;
+    left: 90%;
+    border: 5px solid rgba(34, 74, 34, 0.831);
+    width: 300px;
+    height: 200px;
+}
+
+.img-piece-cookies {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    object-position: left top;
+}
+
+.about-cookies {
+    text-decoration: overline;
+    padding-top: 70px;
+    text-align: center;
+}
